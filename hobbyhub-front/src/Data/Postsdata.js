@@ -1,7 +1,7 @@
 import postPic1 from '../img/postPic1.webp'
 import postPic2 from '../img/postPic2.jpg'
 import postPic3 from '../img/postPic3.jpg'
-
+//use this data desktop dynamically
 //Array of posts
 export const PostsData = [
     {

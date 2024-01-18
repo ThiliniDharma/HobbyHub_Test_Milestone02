@@ -1,5 +1,5 @@
 import React from "react";
-import Cover from "../../img/profileCover.webp";
+import Cover from "../../img/profileCover3.jpg";
 import Profile from "../../img/ThiliniProfile.jpg";
 import "./ProfileCard.css";
 

@@ -11,7 +11,7 @@ const NavBar = () => {
 //   }
   return (
     <nav>
-    <img className="logoImg" src={Logo} alt="" />
+    <img className="logoImg" src={Logo} alt="HobbyHUB custom logo shout out Ari!" />
 
     <div>
         <ul>

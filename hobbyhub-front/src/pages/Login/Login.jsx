@@ -6,7 +6,7 @@ const Login = () => {
   return (
     <div className="Login">
       <div className="a-left">
-        <img src={Logo} alt="" />
+        <img src={Logo} alt="HobbyHUB custom logo shout out Ari!" />
         <div className="Webname">
           <h1>Hobby Hub</h1>
         </div>

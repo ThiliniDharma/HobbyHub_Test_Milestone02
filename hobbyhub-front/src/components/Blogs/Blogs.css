@@ -1,22 +1,20 @@
-.Aboutus {
+.Blogs {
     /* display: flex; */
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    gap: 4rem;
+    height: 200vh;
+    gap: 3rem;
     position: relative;
     margin-top:2rem;
-   
   }
-  .Aboutus > div {
+    .Blogs > div {
     align-items: center;
     justify-content: center;
   }
-
-  h2 {
-    text-align: left;
-    margin-left: 15rem;
-  }
+  /* p{
+    text-align:justify;
+    font-size: small;
+} */
 
   .name > h4 {
       font-size: 3rem;
@@ -36,50 +34,44 @@
       -moz-background-clip: text;
       -moz-text-fill-color: transparent;
   }
-  .Aboutus .Aboutpara{
-    text-align:justify;
-    max-width:1600px;
-    padding-right:10px;
-    padding-left:250px;
-    font-size: medium;
-  }
   html {
     box-sizing: border-box;
   }
   *, *:before, *:after {
     box-sizing: inherit;
   }
-  
-.container {
-  padding: 0 16px;
-}
-
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-  .column {
-    float: left;
-    width: 20%;
-    margin-bottom: 16px;
-    padding: 0 8px;
+  .article-row{
+   display: flex;
+   margin-left: 100px;
   }
-  .row{
-    max-width:2000px;
-    padding-right:10px;
-    padding-left:250px;
+  .more-articles-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width:100%;
   }
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 8px;
-    border-radius: 10%;
+  .more-articles-col .card{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    margin: 20px 30px; 
+    flex:1;
+    background-color: #fff;
+    border-radius: 0%;
+    width:20vh;
+    height:64vh;
   }
-
-  .MemImg{
-    max-width: 90px; 
-    max-height: 90px;
-    margin-left: 5rem;
-    border-radius: 50%;
-    margin-top: 30px;
-}
+  .more-articles-col .card img{
+    width:100%;
+    height:auto;
+    justify-content:center;
+  }
+  .more-articles-col .card h4{
+   margin-top: 10px;
+   margin-left: 10px;
+   font-size: 18px;
+  }
+  .more-articles-col .card p{
+   font-size: 14px;
+   line-height: 1.5;
+   padding: 10px;
+  }

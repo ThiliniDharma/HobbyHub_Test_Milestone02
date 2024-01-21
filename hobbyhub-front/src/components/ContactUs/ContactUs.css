@@ -1,21 +1,15 @@
-.Aboutus {
-    /* display: flex; */
+.Contactus {
     align-items: center;
     justify-content: center;
     height: 100vh;
     gap: 4rem;
     position: relative;
     margin-top:2rem;
-   
   }
-  .Aboutus > div {
+  
+  .Contactus > div {
     align-items: center;
     justify-content: center;
-  }
-
-  h2 {
-    text-align: left;
-    margin-left: 15rem;
   }
 
   .name > h4 {
@@ -36,7 +30,7 @@
       -moz-background-clip: text;
       -moz-text-fill-color: transparent;
   }
-  .Aboutus .Aboutpara{
+  .Contactus .para{
     text-align:justify;
     max-width:1600px;
     padding-right:10px;
@@ -49,26 +43,28 @@
   *, *:before, *:after {
     box-sizing: inherit;
   }
-  
-.container {
-  padding: 0 16px;
-}
-
+  .container {
+    padding: 0 16px;
+    font-size: small;
+    gap: 1rem;
+    text-align: center;
+  }
 .container::after, .row::after {
   content: "";
   clear: both;
   display: table;
-}
+} 
   .column {
     float: left;
-    width: 20%;
-    margin-bottom: 16px;
+    width: 50%;
+    margin-bottom: 10px;
     padding: 0 8px;
   }
   .row{
-    max-width:2000px;
+    max-width:800px;
+    max-height:180px;
     padding-right:10px;
-    padding-left:250px;
+    padding-left:200px;
   }
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -77,9 +73,9 @@
   }
 
   .MemImg{
-    max-width: 90px; 
-    max-height: 90px;
-    margin-left: 5rem;
+    max-width: 50px; 
+    max-height: 50px;
+    margin-left: 1rem;
     border-radius: 50%;
-    margin-top: 30px;
+    margin-top: 8px;
 }
